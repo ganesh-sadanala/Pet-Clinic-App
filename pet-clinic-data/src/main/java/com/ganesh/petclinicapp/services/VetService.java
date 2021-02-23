@@ -1,6 +1,5 @@
 package com.ganesh.petclinicapp.services;
 
-import com.ganesh.petclinicapp.model.Owner;
 import com.ganesh.petclinicapp.model.Vet;
 
 import java.util.Set;
