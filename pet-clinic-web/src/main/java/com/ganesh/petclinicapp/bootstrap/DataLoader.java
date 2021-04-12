@@ -4,8 +4,6 @@ import com.ganesh.petclinicapp.model.Owner;
 import com.ganesh.petclinicapp.model.Vet;
 import com.ganesh.petclinicapp.services.OwnerService;
 import com.ganesh.petclinicapp.services.VetService;
-import com.ganesh.petclinicapp.services.map.OwnerServiceMap;
-import com.ganesh.petclinicapp.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
