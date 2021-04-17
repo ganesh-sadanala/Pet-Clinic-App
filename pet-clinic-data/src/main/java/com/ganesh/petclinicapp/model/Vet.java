@@ -1,13 +1,16 @@
 package com.ganesh.petclinicapp.model;
 
-public class Vet extends Person{
-    private Speciality specialities;
+import java.util.HashSet;
+import java.util.Set;
 
-    public Speciality getSpecialities() {
+public class Vet extends Person{
+    private Set<Speciality> specialities = new HashSet<>();
+
+    public Set<Speciality> getSpecialities() {
         return specialities;
     }
 
-    public void setSpecialities(Speciality specialities) {
+    public void setSpecialities(Set<Speciality> specialities) {
         this.specialities = specialities;
     }
 }
