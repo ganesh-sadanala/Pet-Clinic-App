@@ -3,7 +3,7 @@ package com.ganesh.petclinicapp.model;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Vet extends Person{
+public class Vet extends Person {
     private Set<Speciality> specialities = new HashSet<>();
 
     public Set<Speciality> getSpecialities() {
