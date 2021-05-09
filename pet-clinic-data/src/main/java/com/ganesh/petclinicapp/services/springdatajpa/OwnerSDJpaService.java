@@ -5,6 +5,7 @@ import com.ganesh.petclinicapp.repositories.OwnerRepository;
 import com.ganesh.petclinicapp.repositories.PetRepository;
 import com.ganesh.petclinicapp.repositories.PetTypeRepository;
 import com.ganesh.petclinicapp.services.OwnerService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
@@ -13,6 +14,7 @@ import java.util.Set;
 import java.util.function.Consumer;
 
 @Service
+@Profile("springdatajpa")
 public class OwnerSDJpaService implements OwnerService {
 
     private final OwnerRepository ownerRepository;
