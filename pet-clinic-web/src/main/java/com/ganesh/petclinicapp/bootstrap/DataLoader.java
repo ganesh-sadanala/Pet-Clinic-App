@@ -1,10 +1,7 @@
 package com.ganesh.petclinicapp.bootstrap;
 
 import com.ganesh.petclinicapp.model.*;
-import com.ganesh.petclinicapp.services.OwnerService;
-import com.ganesh.petclinicapp.services.PetTypeService;
-import com.ganesh.petclinicapp.services.SpecialityService;
-import com.ganesh.petclinicapp.services.VetService;
+import com.ganesh.petclinicapp.services.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -17,6 +14,7 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
     private final PetTypeService petTypeService;
     private final SpecialityService specialityService;
+
 
     public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialityService specialityService) {
         this.ownerService = ownerService;
